@@ -1,0 +1,59 @@
+h1 {
+  padding: 50px 50px 50px 50px;
+  font: 40px "urbane-rounded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #B3B3B3;
+  text-align: right;
+  line-height: 10%;
+}
+
+p {
+  font-family: urbane-rounded, sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  padding: 50px 50px 50px 50px;
+  text-align: right;
+  font: 40px "urbane-rounded", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  height: 850px;
+}
+
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 10px 10px 100px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #F5F5F5;
+  color: grey;
+  padding: 15px 20px;
+  margin: 8px 0px 0px 270px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+input[type=submit]:hover {
+  background-color: #D1D1D1;
+}
+
+element.style {
+  margin: 60px;
+}
